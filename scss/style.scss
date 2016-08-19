@@ -86,23 +86,15 @@
 }
 
 html, body{
-	/*background:radial-gradient(#1e3e4d,#000);*/
 	background:black;
 	color:white;
 	font-size: 16px;
-	
 }
 
-h3{
-	position: absolute;
-	float:left;
-	font: bold 3.125em "amatic_scregular",sans-serif;
-
-}
 
 a{
-	text-decoration: none;
 	color: white;
+	text-decoration: none;
 }
 
 // ***************************
@@ -112,23 +104,23 @@ a{
 // ***************************
 
 header{
+	margin-bottom: 15px;
 	position: relative;
 	text-align: center;
-	margin-bottom: 15px;
 
 	
 
 	h1{
-		font: bold 4.6875em "amatic_scregular",sans-serif;
 		color:white;
-		padding: 10px;
-		margin: 100px auto 10px auto;
 		font-size: 4.6875em;
+		font: bold 4.6875em "amatic_scregular",sans-serif;
+		margin: 100px auto 10px auto;
+		padding: 10px;
 	}
 
 	h2{
-		font: bold 1.625em "amatic_scregular",sans-serif;
 		color:rgba(255,255,255,.65);
+		font: bold 1.625em "amatic_scregular",sans-serif;
 		margin: 0px auto 30px auto;
 	}
 
@@ -139,32 +131,27 @@ header{
 // ***************************
 
 	nav{
-		margin: 0 auto;
-		text-align: center;
 		border-top: 1px solid white;
+		margin: 0 auto;
 		max-width: 550px;
+		text-align: center;
 
-
+		ul{
+			padding-left:0;
+		}
 
 		li{
-		 	list-style:none;
-		 	text-decoration: none;
-		 	display: inline;
-		 	padding: 1.818181818182%;
-		 	margin: 10px auto;
 		 	border-radius: 2px;
 		 	border-right: .05em solid white;
+		 	display: inline;
 		 	font-family: "amatic_scregular";
 		 	font-size: 1.5625em;
+		 	list-style:none;
+		 	margin: 10px auto;
+		 	padding: 1.818181818182%;
+		 	text-decoration: none;
 		 	transition: background-color .5s linear;
 		 }
-
-		#links {
-			padding: 0px 10px;
-			position: relative;
-		/*	right:15px; */	
-
-		}
 
 		.lastlink{
 			border-right:none;
@@ -185,68 +172,65 @@ header{
 article{
 	position: relative;
 }
-	article #main-pic{
+	#main-pic{
+		padding: 40px 50px 20px 50px;
 		vertical-align: middle;
 		width: 100%;
-		padding: 40px 50px 20px 50px;
-
-	}
-
-	article #main-pic #opaqbox {
-		display: inline-block;
-		width: 30%;
-		height:100%;
+		#opaqbox {
+			background:rgba(0,0,0,.5);
+			display: inline-block;
+			height:100%;
+			position: absolute;
+			right:0;
+			top:0;
+			width: 30%;
+		}
+	}	
+	
+	h3{
+		float:left;
+		font: bold 3.125em "amatic_scregular",sans-serif;
 		position: absolute;
-		right:0;
-		top:0;
-		background:rgba(0,0,0,.5);
 	}
-
-	#projpictures{
-		padding: 0px;
-		display:block;
-		width:100%;
-		margin-top:100px;
-		position: relative;
-	}
-
+	
 	.img-wrapper{
 		display: table;
 		height:200px;
 		width: 100%;
 	}
-
-	/*Need to center over image*/
-	#projpictures h4{
-		display:inline-block;
-		text-align: center;
-		height:40px;
-		font:1.875em "amatic_scregular",sans-serif;
-	}
-
-	#projpictures li{
-		box-sizing:border-box;
-		width:25%;
-		padding:25px;
-		display: inline-block;
-	}
-
-	#projpictures p{
-		font: italic 1.5625em'amatic_scregular', sans-serif;
-		display:inline-block;
-		height:150px;
-		text-align:right;
-	}
-
-	#projpictures img{
+	
+	#projpictures{
+		display:block;
+		margin-top:100px;
+		padding: 0px;
+		position: relative;
 		width:100%;
-		display: table-cell;
-		vertical-align: middle;
-		height:100%;
-	}
-
-	#projpictures img, #projpictures li{
-		float:left;
+		h4{
+			display:inline-block;
+			font:1.875em "amatic_scregular",sans-serif;
+			height:40px;
+			text-align: center;
+		}
+		li{
+			box-sizing:border-box;
+			display: inline-block;
+			float:left;
+			padding:25px;
+			width:25%;
+		}
+		p{	
+			display:inline-block;
+			font: italic 1.5625em'amatic_scregular', sans-serif;
+			height:150px;
+			text-align:right;
+		}
+		img{
+			display: table-cell;
+			float:left;
+			height:100%;
+			vertical-align: middle;
+			width:100%;
+		}
 	}
 
 
@@ -258,16 +242,16 @@ article{
 
 
 article .aboutme{
-	position: relative;
-	max-width:70%;
 	margin:40px auto 40px auto;
+	max-width:70%;
+	position: relative;
 	text-align: center;
 }
 
 	.abouthead{
 		clear: both;
-		width: 60%;
 		display: inline-block;
+		width: 60%;
 	}
 
 	.aboutme p{
@@ -280,16 +264,16 @@ article .aboutme{
 	}
 
 	.aboutme h3{
-		font: bold 2.5em "amatic_scregular";
 		float: left;
+		font: bold 2.5em "amatic_scregular";
 	}
 
 	article .abouthead img{
-		float: right;
 		border-radius: 100%;
-		max-width: 200px;
-		max-height: 200px;
+		float: right;
 		margin: 90px 10px 10px auto;
+		max-height: 200px;
+		max-width: 200px;
 
 	}
 
@@ -320,49 +304,50 @@ article .aboutme{
 
 footer{
 	color:gray;
-	text-align: center;
 	float:bottom;
 	margin: 90px 10px 20px 10px;
-	position: relative;
-	top: 75px;
 	padding:20px;
+	position: relative;
+	text-align: center;
+	top: 75px;
 	width:90%;
-}
 
-	footer #foot-nav{
-		border:none;		
+
+	li:hover{
+		background-color: dimgray;
+		transition: background-color 1s ease-in-out;
 	}
 
-		footer #foot-nav li{
+	#foot-nav{
+		border:none;		
+		li{
+			border-bottom: .05em solid white;
+			border-radius: .5em;
+			border-right: .05em solid white;
 			display: inline;
+			font: 1.5625em "amatic_scregular",sans-serif;
 			padding:15px;
 			text-decoration: none;
-			border-radius: .5em;
-			font: 1.5625em "amatic_scregular",sans-serif;
-			border-right: .05em solid white;
-			border-bottom: .05em solid white;
-
 		}
+	}
 
-	footer #social-icons{
+	#social-icons{
 		display: block;
 		float:left;
 		margin-top:30px;
-	}
-
-		footer #social-icons li{
-			text-decoration: none;
+		li{
 			display: inline;
 			padding-right: 15px;
+			text-decoration: none;
 		}
-
-		footer #social-icons img{
+		img{
 			width:30px;
 		}
-
-	footer #copyright{
-		float:right;
-		margin-top:40px;
-		font-size: 15px;
 	}
 
+	#copyright{
+		float:right;
+		font-size: 15px;
+		margin-top:40px;
+	}
+}
