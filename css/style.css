@@ -113,11 +113,11 @@ header nav li {
   text-decoration: none;
   transition: background-color .5s linear;
 }
-header nav .lastlink {
-  border-right: none;
-}
 header nav li:hover {
   background-color: dimgray;
+}
+header nav .lastlink {
+  border-right: none;
 }
 
 article {
@@ -185,39 +185,34 @@ h3 {
   width: 100%;
 }
 
-article .aboutme {
+.aboutme {
   margin: 40px auto 40px auto;
-  max-width: 70%;
+  width: 70%;
   position: relative;
   text-align: center;
 }
-
-.abouthead {
+.aboutme .abouthead {
   clear: both;
   display: inline-block;
   width: 60%;
 }
-
-.aboutme p {
-  text-align: justify;
-  text-indent: 3.125em;
-}
-
-.aboutme p:first-child {
-  margin-top: 40px;
-}
-
-.aboutme h3 {
-  float: left;
-  font: bold 2.5em "amatic_scregular";
-}
-
-article .abouthead img {
+.aboutme .abouthead img {
   border-radius: 100%;
   float: right;
   margin: 90px 10px 10px auto;
   max-height: 200px;
   max-width: 200px;
+}
+.aboutme p {
+  text-align: justify;
+  text-indent: 3.125em;
+}
+.aboutme p:first-child {
+  margin-top: 40px;
+}
+.aboutme h3 {
+  float: left;
+  font: bold 2.5em "amatic_scregular";
 }
 
 article.music iframe {
@@ -242,10 +237,6 @@ footer {
   top: 75px;
   width: 90%;
 }
-footer li:hover {
-  background-color: dimgray;
-  transition: background-color 1s ease-in-out;
-}
 footer #foot-nav {
   border: none;
 }
@@ -257,6 +248,10 @@ footer #foot-nav li {
   font: 1.5625em "amatic_scregular",sans-serif;
   padding: 15px;
   text-decoration: none;
+}
+footer #foot-nav li:hover {
+  background-color: dimgray;
+  transition: background-color 1s ease-in-out;
 }
 footer #social-icons {
   display: block;
