@@ -136,12 +136,15 @@ header{
 
 	nav{
 		border-top: 1px solid white;
-		margin: 0 auto;
-		max-width: 550px;
-		text-align: center;
-
+		margin:0 auto;
+		width:80%;
 		ul{
-			padding-left:0;
+			padding:30px;
+			margin:0 auto;
+			@include mobile{
+				width:80%;
+
+			}
 		}
 
 		li{
@@ -158,6 +161,9 @@ header{
 		 	&:hover{
 				background-color: dimgray;
 			}
+			@include mobile{
+				display:inline-block;
+		 	}
 		 }
 
 		.lastlink{
@@ -176,8 +182,7 @@ article{
 }
 	#main-pic{
 		padding: 40px 50px 20px 50px;
-		vertical-align: middle;
-		width: 100%;
+		margin:0 auto;
 		#opaqbox {
 			background:rgba(0,0,0,.5);
 			display: inline-block;
@@ -186,13 +191,31 @@ article{
 			right:0;
 			top:0;
 			width: 30%;
+			@include mobile{
+				opacity:0;
+			}
+		}
+		img{
+			width: 100%;
+			margin:10px auto;
+		}
+		@include mobile{
+			padding:10px;
+			width:80%;
+				
 		}
 	}	
 	
 	h3{
 		float:left;
 		font: bold 3.125em "amatic_scregular",sans-serif;
-		position: absolute;
+		margin-bottom:10px;
+		@include mobile{
+			display:block;
+			float:none;
+			text-align:center;
+			margin:0 auto;
+		}
 	}
 	
 	.img-wrapper{
@@ -202,16 +225,18 @@ article{
 	}
 	
 	#projpictures{
-		display:block;
-		margin-top:100px;
+		display:inline-block;
+		margin-top:10px;
 		padding: 0px;
 		position: relative;
 		width:100%;
+		@include mobile{
+			display:block;
+		}
 		h4{
 			display:inline-block;
 			font:1.875em "amatic_scregular",sans-serif;
 			height:40px;
-			text-align: center;
 		}
 		li{
 			box-sizing:border-box;
@@ -219,19 +244,28 @@ article{
 			float:left;
 			padding:25px;
 			width:25%;
+			@include mobile{
+			display:block;
+			}
 		}
 		p{	
 			display:inline-block;
 			font: italic 1.5625em'amatic_scregular', sans-serif;
 			height:150px;
 			text-align:right;
+			@include mobile{
+			display:block;
+			}
 		}
 		img{
 			display: table-cell;
 			float:left;
 			height:100%;
 			vertical-align: middle;
-			width:100%;
+			width:auto;
+			@include mobile{
+			display:block;
+			}
 		}
 	}
 
@@ -295,7 +329,7 @@ article{
 		font-family:'Montserrat';
 		margin:0 auto;
 		@include mobile{
-			width:70%;
+			width:90%;
 		}
 	}
 

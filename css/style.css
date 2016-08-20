@@ -94,11 +94,16 @@ header h2 {
 header nav {
   border-top: 1px solid white;
   margin: 0 auto;
-  max-width: 550px;
-  text-align: center;
+  width: 80%;
 }
 header nav ul {
-  padding-left: 0;
+  padding: 30px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  header nav ul {
+    width: 80%;
+  }
 }
 header nav li {
   border-radius: 2px;
@@ -115,6 +120,11 @@ header nav li {
 header nav li:hover {
   background-color: dimgray;
 }
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  header nav li {
+    display: inline-block;
+  }
+}
 header nav .lastlink {
   border-right: none;
 }
@@ -125,8 +135,7 @@ article {
 
 #main-pic {
   padding: 40px 50px 20px 50px;
-  vertical-align: middle;
-  width: 100%;
+  margin: 0 auto;
 }
 #main-pic #opaqbox {
   background: rgba(0, 0, 0, 0.5);
@@ -137,11 +146,34 @@ article {
   top: 0;
   width: 30%;
 }
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  #main-pic #opaqbox {
+    opacity: 0;
+  }
+}
+#main-pic img {
+  width: 100%;
+  margin: 10px auto;
+}
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  #main-pic {
+    padding: 10px;
+    width: 80%;
+  }
+}
 
 h3 {
   float: left;
   font: bold 3.125em "amatic_scregular",sans-serif;
-  position: absolute;
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  h3 {
+    display: block;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 .img-wrapper {
@@ -151,17 +183,21 @@ h3 {
 }
 
 #projpictures {
-  display: block;
-  margin-top: 100px;
+  display: inline-block;
+  margin-top: 10px;
   padding: 0px;
   position: relative;
   width: 100%;
+}
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  #projpictures {
+    display: block;
+  }
 }
 #projpictures h4 {
   display: inline-block;
   font: 1.875em "amatic_scregular",sans-serif;
   height: 40px;
-  text-align: center;
 }
 #projpictures li {
   box-sizing: border-box;
@@ -170,18 +206,33 @@ h3 {
   padding: 25px;
   width: 25%;
 }
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  #projpictures li {
+    display: block;
+  }
+}
 #projpictures p {
   display: inline-block;
   font: italic 1.5625em "amatic_scregular", sans-serif;
   height: 150px;
   text-align: right;
 }
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  #projpictures p {
+    display: block;
+  }
+}
 #projpictures img {
   display: table-cell;
   float: left;
   height: 100%;
   vertical-align: middle;
-  width: 100%;
+  width: auto;
+}
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  #projpictures img {
+    display: block;
+  }
 }
 
 .aboutme {
@@ -241,7 +292,7 @@ h3 {
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
   .aboutme .learn-more {
-    width: 70%;
+    width: 90%;
   }
 }
 .aboutme .about-bullets {
