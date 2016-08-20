@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+@import "https://fonts.googleapis.com/css?family=Just+Another+Hand";
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -36,26 +38,23 @@
   -o-animation: fadeIn ease-in forwards;
   animation: fadeIn ease-in-out forwards;
 }
-
 .fadeIn.one {
   -webkit-animation-duration: 3s;
   -moz-animation-duration: 3s;
   -o-animation-duration: 3s;
   animation-duration: 3s;
 }
-
 .fadeIn.two {
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-duration: 4s;
+}
+.fadeIn.three {
   -webkit-animation-duration: 5s;
   -moz-animation-duration: 5s;
   -o-animation-duration: 5s;
   animation-duration: 5s;
-}
-
-.fadeIn.three {
-  -webkit-animation-duration: 7s;
-  -moz-animation-duration: 7s;
-  -o-animation-duration: 7s;
-  animation-duration: 7s;
 }
 
 .page-wrapper {
@@ -186,34 +185,68 @@ h3 {
 }
 
 .aboutme {
-  margin: 40px auto 40px auto;
-  width: 70%;
   position: relative;
-  text-align: center;
 }
-.aboutme .abouthead {
-  clear: both;
+.aboutme img {
+  border-radius: 50%;
   display: inline-block;
-  width: 60%;
-}
-.aboutme .abouthead img {
-  border-radius: 100%;
   float: right;
-  margin: 90px 10px 10px auto;
-  max-height: 200px;
-  max-width: 200px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 0px;
+  width: 50%;
 }
-.aboutme p {
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  .aboutme img {
+    display: block;
+    margin: 40px auto;
+    float: none;
+    text-align: center;
+  }
+}
+.aboutme .about-header {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-family: "amatic_scregular";
+  text-align: left;
+}
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  .aboutme .about-header {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+.aboutme .about-bullets, .aboutme .learn {
+  font-family: 'Montserrat';
+  margin: 0 auto;
   text-align: justify;
-  text-indent: 3.125em;
-  line-height: 1.5em;
 }
-.aboutme p:first-child {
-  margin-top: 40px;
+.aboutme .learn {
+  margin-top: 50px;
 }
-.aboutme h3 {
-  float: left;
-  font: bold 2.5em "amatic_scregular";
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  .aboutme .learn {
+    width: 70%;
+  }
+}
+.aboutme .learn-more {
+  text-align: justify;
+  font-family: 'Montserrat';
+  margin: 0 auto;
+}
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  .aboutme .learn-more {
+    width: 70%;
+  }
+}
+.aboutme .about-bullets {
+  margin-left: 20px;
+  padding-left: 0;
 }
 
 .music iframe {
