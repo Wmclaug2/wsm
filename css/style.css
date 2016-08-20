@@ -206,6 +206,7 @@ h3 {
 .aboutme p {
   text-align: justify;
   text-indent: 3.125em;
+  line-height: 1.5em;
 }
 .aboutme p:first-child {
   margin-top: 40px;
@@ -215,16 +216,24 @@ h3 {
   font: bold 2.5em "amatic_scregular";
 }
 
-article.music iframe {
+.music iframe {
   display: block;
   margin: 40px auto;
   width: 60%;
 }
-
-article.music p {
+.music p {
   font: 1.375em "amatic_scregular", sans-serif;
   text-align: center;
   margin: 0 auto;
+}
+
+.contact {
+  position: relative;
+}
+.contact h3 {
+  display: block;
+  left: 50%;
+  transform: translate(-50 .contact h3, 0);
 }
 
 footer {
