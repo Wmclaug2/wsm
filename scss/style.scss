@@ -144,7 +144,7 @@ header{
 		margin:0 auto;
 		width:80%;
 		ul{
-			padding:30px;
+			padding:30px 30px 10px 30px;
 			margin:0 auto;
 			@include mobile{
 				width:80%;
@@ -201,7 +201,8 @@ article{
 			}
 		}
 		img{
-			width: 100%;
+			width: 110%;
+			border-radius:50%;
 			margin:10px auto;
 		}
 		@include mobile{
@@ -241,7 +242,6 @@ article{
 		h4{
 			display:inline-block;
 			font:1.875em "amatic_scregular",sans-serif;
-			height:40px;
 		}
 		li{
 			box-sizing:border-box;
@@ -250,18 +250,33 @@ article{
 			padding:25px;
 			width:25%;
 			@include mobile{
-			display:block;
-			float:none;
-			width:80%;
+				display:block;
+				float:none;
+				width:80%;
+				text-align:center;
 			}
 		}
+		.projli{
+			@include mobile{
+				margin: 0 auto;
+			}
+		}
+		.img-wrapper{
+				img{
+					@include mobile{
+						margin: 0 auto;
+						float:none;
+					}
+				}
+			}
 		p{	
 			display:inline-block;
 			font: italic 1.5625em'amatic_scregular', sans-serif;
-			height:150px;
+			height:auto;
 			text-align:right;
 			@include mobile{
-			display:block;
+				display:block;
+				text-align:center;
 			}
 		}
 		img{
