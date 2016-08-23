@@ -379,8 +379,16 @@ article{
 		display:block;
 		position:relative;
 		.contact-header{
+			line-height:1.5em;
 			float:none;
+<<<<<<< HEAD
 			text-align:center;
+=======
+			text-align:center;	
+		}
+		.email{
+			left:10px;
+>>>>>>> gh-pages
 		}
 }
 
