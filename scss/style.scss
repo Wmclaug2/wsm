@@ -381,6 +381,11 @@ article{
 		margin-bottom:150px;
 		&.contact-header{
 		text-align:center;
+		&.mobile-break{
+			@include mobile{
+				display:block;
+			}
+		}
 	}
 }
 
