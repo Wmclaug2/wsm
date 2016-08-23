@@ -325,21 +325,16 @@ h3 {
   width: 50%;
   display: block;
   position: relative;
-  margin-bottom: 150px;
 }
-.contact.contact-header {
+.contact .contact-header {
+  float: none;
   text-align: center;
-}
-@media only screen and (min-width: 0px) and (max-width: 825px) {
-  .contact.contact-header.mobile-break {
-    display: block;
-  }
 }
 
 footer {
   bottom: 0;
   color: gray;
-  margin: 90px 10px 20px 10px;
+  margin: 30px 10px 20px 10px;
   padding: 20px;
   position: relative;
   text-align: center;

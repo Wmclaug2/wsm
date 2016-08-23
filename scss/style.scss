@@ -378,15 +378,11 @@ article{
 		width:50%;
 		display:block;
 		position:relative;
-		margin-bottom:150px;
-		&.contact-header{
-		text-align:center;
-		&.mobile-break{
-			@include mobile{
-				display:block;
-			}
+		.contact-header{
+			float:none;
+			text-align:center;
+			
 		}
-	}
 }
 
 // ***************************
@@ -398,7 +394,7 @@ article{
 footer{
 	bottom:0;
 	color:gray;
-	margin: 90px 10px 20px 10px;
+	margin: 30px 10px 20px 10px;
 	padding:20px;
 	position: relative;
 	text-align: center;
