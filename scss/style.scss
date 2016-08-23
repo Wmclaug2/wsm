@@ -186,8 +186,9 @@ article{
 	position: relative;
 }
 	#main-pic{
-		padding: 40px 50px 20px 50px;
-		margin:0 auto;
+		padding: 40px 50px 40px 50px;
+		margin: 30px auto;
+		width:90%;
 		#opaqbox {
 			background:rgba(0,0,0,.5);
 			display: inline-block;
@@ -200,9 +201,10 @@ article{
 				opacity:0;
 			}
 		}
-		img{
-			width: 110%;
-			border-radius:50%;
+		.image{
+			display:inline-block;
+			right:20%;
+			width: 100%;
 			margin:10px auto;
 		}
 		@include mobile{
@@ -412,20 +414,15 @@ article{
 // ***************************
 
 footer{
-	bottom:0;
-	color:gray;
-	margin: 30px auto 20px auto;
-	padding:20px;
+	margin: 30px auto;
 	position: relative;
 	text-align: center;
-	top: 75px;
 	width:90%;
 
 	#foot-nav{
-		border:none;
-		@include mobile{
-				width:80%;
-			}		
+		// @include mobile{
+		// 		width:80%;
+		// 	}		
 		li{
 			border-bottom: .05em solid white;
 			border-radius: .5em;
