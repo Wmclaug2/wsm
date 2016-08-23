@@ -322,13 +322,16 @@ h3 {
 
 .contact {
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
   display: block;
   position: relative;
 }
 .contact .contact-header {
   float: none;
   text-align: center;
+}
+.contact .email {
+  left: 10px;
 }
 
 footer {
