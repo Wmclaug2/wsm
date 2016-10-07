@@ -123,15 +123,15 @@ header{
 	margin-bottom: 15px;
 	position: relative;
 	text-align: center;
-
-	
-
 	h1{
 		color:white;
 		font-size: 4.6875em;
 		font: bold 4.6875em 'amatic_scregular',sans-serif;
 		margin: 100px auto 10px auto;
 		padding: 10px;
+		@include mobile{
+			margin:30px auto 10px auto;
+		}
 	}
 
 	h2{
