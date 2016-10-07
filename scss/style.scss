@@ -132,6 +132,17 @@ header{
 		color:rgba(255,255,255,.65);
 		font: bold 1.625em 'amatic_scregular',sans-serif;
 		margin: 0px auto 30px auto;
+		transition:.3s ease-in-out;
+		width:10%;
+		@include mobile{
+			width:20%;
+		}
+		&:hover{
+			transform:scale(1.5);
+			@include mobile{
+				transform:scale(1);
+			}
+		}
 	}
 
 // ***************************
@@ -156,16 +167,20 @@ header{
 		li{
 		 	border-radius: 2px;
 		 	border-right: .05em solid white;
-		 	display: inline;
+		 	display: inline-block;
 		 	font-family: 'amatic_scregular';
 		 	font-size: 1.5625em;
 		 	list-style:none;
 		 	margin: 10px auto;
 		 	padding: 1.818181818182%;
 		 	text-decoration: none;
-		 	transition: background-color .5s linear;
+		 	transition: all .3s linear;
 		 	&:hover{
 				background-color: dimgray;
+				transform:scale(1.11);
+				@include mobile{
+					transform:scale(1);
+				}
 			}
 			@include mobile{
 				display:inline-block;
@@ -245,6 +260,9 @@ article{
 		h4{
 			display:inline-block;
 			font:1.875em 'amatic_scregular',sans-serif;
+			@include mobile{
+				margin:10px;
+			}
 		}
 		li{
 			box-sizing:border-box;
@@ -262,6 +280,7 @@ article{
 		.projli{
 			@include mobile{
 				margin: 0 auto;
+				padding:10px 10px 20px 10px;
 			}
 		}
 		.img-wrapper{
@@ -280,6 +299,7 @@ article{
 			@include mobile{
 				display:block;
 				margin:0 auto;
+				padding-top:10px;
 				text-align:center;
 			}
 		}
@@ -302,7 +322,11 @@ article{
 
 // ***************************
 .aboutme{
+	padding-left:20px;
 	position:relative;
+	@include mobile{
+		padding:none;
+	}
 	img{
 		border-radius:50%;
 		display:inline-block;
@@ -428,21 +452,25 @@ article.port{
 // ***************************
 
 .contact {
-		margin:0 auto 40px auto;
-		width:90%;
-		display:block;
-		position:relative;
-		.contact-header{
-			line-height:1.5em;
-			float:none;
-			text-align:center;	
-		}
-		.email{
-			left:10px;
-		}
-		a:hover{
-			color:#AAA;
-		}
+	font-size:20px;
+	margin:0 auto 40px auto;
+	width:90%;
+	display:block;
+	position:relative;
+	.contact-header{
+		line-height:1.5em;
+		float:none;
+		text-align:center;	
+	}
+	.email{
+		left:10px;
+	}
+	a:hover{
+		color:#AAA;
+	}
+	i{
+		font-size:50px;
+	}
 }
 
 // ***************************
@@ -503,9 +531,10 @@ footer{
 			text-decoration: none;
 		}
 		img{
+			transition:.3s ease-in-out;
 			width:30px;
 			&:hover{
-			transform:scale(1.1);
+				transform: translate(0, -5px) scale(1.1);
 			}
 		}
 
