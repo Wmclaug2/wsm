@@ -140,9 +140,8 @@ article {
 }
 
 #main-pic {
-  padding: 40px 50px 40px 50px;
   margin: 30px auto;
-  width: 90%;
+  width: 100%;
 }
 #main-pic #opaqbox {
   background: rgba(0, 0, 0, 0.5);
