@@ -383,6 +383,9 @@ article.port img:hover {
 .contact .email {
   left: 10px;
 }
+.contact a:hover {
+  color: #AAA;
+}
 
 footer {
   margin: 30px auto;
@@ -436,6 +439,9 @@ footer #social-icons li {
 }
 footer #social-icons img {
   width: 30px;
+}
+footer #social-icons img:hover {
+  transform: scale(1.1);
 }
 footer #copyright {
   float: right;

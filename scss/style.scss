@@ -440,6 +440,9 @@ article.port{
 		.email{
 			left:10px;
 		}
+		a:hover{
+			color:#AAA;
+		}
 }
 
 // ***************************
@@ -501,7 +504,11 @@ footer{
 		}
 		img{
 			width:30px;
+			&:hover{
+			transform:scale(1.1);
+			}
 		}
+
 	}
 
 	#copyright{
