@@ -44,6 +44,12 @@
 	100%{opacity:1;}
 }
 
+@keyframes sweep 
+{
+ 0%    {opacity: 0; margin-left: -1000px}
+ 100%  {opacity: 1; margin-left: auto}
+}
+
 // ***************************
 
 //** Animation Classes
@@ -222,6 +228,7 @@ article{
 			right:20%;
 			width: 100%;
 			margin:10px auto;
+
 		}
 		@include mobile{
 			padding:10px;
@@ -439,6 +446,17 @@ article.port{
 		}
 		&:hover{
 			transform:scale(1.05);
+		}
+	}
+	h4{
+		display:block;
+		font-size:30px;
+		margin:10px auto;
+		text-align:center;
+		transition:.3s linear;
+		width:30%;
+		&:hover{
+			transform:scale(1.1);
 		}
 	}
 

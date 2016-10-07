@@ -33,6 +33,16 @@
     opacity: 1;
   }
 }
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-left: -1000px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: auto;
+  }
+}
 .fadeIn {
   -webkit-animation: fadeIn ease-in forwards;
   -moz-animation: fadeIn ease-in forwards;
@@ -401,6 +411,17 @@ article.port img {
 }
 article.port img:hover {
   transform: scale(1.05);
+}
+article.port h4 {
+  display: block;
+  font-size: 30px;
+  margin: 10px auto;
+  text-align: center;
+  transition: .3s linear;
+  width: 30%;
+}
+article.port h4:hover {
+  transform: scale(1.1);
 }
 
 .contact {
