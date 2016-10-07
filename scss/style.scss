@@ -5,10 +5,11 @@
 // ***************************
 
 @import 
-"compass/css3",
-"_mixins",
+'compass/css3',
+'_mixins',
 'https://fonts.googleapis.com/css?family=Montserrat',
-'https://fonts.googleapis.com/css?family=Just+Another+Hand';
+'https://fonts.googleapis.com/css?family=Just+Another+Hand',
+'https://fonts.googleapis.com/css?family=Open+Sans|amatic_scregular';
 
 // ***************************
 
@@ -122,14 +123,14 @@ header{
 	h1{
 		color:white;
 		font-size: 4.6875em;
-		font: bold 4.6875em "amatic_scregular",sans-serif;
+		font: bold 4.6875em 'amatic_scregular',sans-serif;
 		margin: 100px auto 10px auto;
 		padding: 10px;
 	}
 
 	h2{
 		color:rgba(255,255,255,.65);
-		font: bold 1.625em "amatic_scregular",sans-serif;
+		font: bold 1.625em 'amatic_scregular',sans-serif;
 		margin: 0px auto 30px auto;
 	}
 
@@ -156,7 +157,7 @@ header{
 		 	border-radius: 2px;
 		 	border-right: .05em solid white;
 		 	display: inline;
-		 	font-family: "amatic_scregular";
+		 	font-family: 'amatic_scregular';
 		 	font-size: 1.5625em;
 		 	list-style:none;
 		 	margin: 10px auto;
@@ -216,7 +217,7 @@ article{
 	
 	h3{
 		float:left;
-		font: bold 3.125em "amatic_scregular",sans-serif;
+		font: bold 3.125em 'amatic_scregular',sans-serif;
 		margin-bottom:10px;
 		@include mobile{
 			display:block;
@@ -243,7 +244,7 @@ article{
 		}
 		h4{
 			display:inline-block;
-			font:1.875em "amatic_scregular",sans-serif;
+			font:1.875em 'amatic_scregular',sans-serif;
 		}
 		li{
 			box-sizing:border-box;
@@ -324,7 +325,7 @@ article{
 		margin-left:auto;
 		margin-bottom:20px;
 		font-size:50px;
-		font-family:"amatic_scregular";
+		font-family:'amatic_scregular';
 		text-align:left;
 		@include mobile{
 			margin-top:30px;
@@ -379,12 +380,45 @@ article{
 			}
 		}
 		& p{
-			font: 1.375em "amatic_scregular", sans-serif;
+			font: 1.375em 'amatic_scregular', sans-serif;
 			text-align: center;
 			margin: 0 auto;
 		}
 	}
+// ***************************
 
+//** Portfolio Page
+
+// ***************************
+article.port{
+	.port-container{
+		margin:20px auto 40px auto;
+		width:80%;
+	}
+	h3{
+		float:none;
+		margin:10px 30px;
+		@include mobile{
+			text-align:center;
+		}
+	}
+	img{
+		border-radius:5px;
+		display:block;
+		float:none;
+		margin:20px auto;
+		transition:.5s ease-in-out;
+		width:80%;
+		@include mobile{
+			width:90%;
+		}
+		&:hover{
+			transform:scale(1.05);
+		}
+	}
+
+
+}
 
 // ***************************
 
@@ -428,7 +462,7 @@ footer{
 			border-radius: .5em;
 			border-right: .05em solid white;
 			display: inline;
-			font: 1.5625em "amatic_scregular",sans-serif;
+			font: 1.5625em 'amatic_scregular',sans-serif;
 			padding:15px;
 			text-decoration: none;
 			&:hover{
@@ -441,7 +475,7 @@ footer{
 				border-radius: 2px;
 		 		border-right: .05em solid white;
 		 		display: inline-block;
-		 		font-family: "amatic_scregular";
+		 		font-family: 'amatic_scregular';
 		 		font-size: 1.5625em;
 		 		list-style:none;
 			 	margin: 10px auto;

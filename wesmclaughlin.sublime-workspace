@@ -72,18 +72,10 @@
 	"buffers":
 	[
 		{
-			"file": "scss/style.scss",
+			"file": "/Users/WSM/Desktop/Web Dev/practice_projects/bootstrapin/index.html",
 			"settings":
 			{
-				"buffer_size": 7253,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scss/_mixins.scss",
-			"settings":
-			{
-				"buffer_size": 2276,
+				"buffer_size": 1243,
 				"line_ending": "Unix"
 			}
 		}
@@ -125,14 +117,18 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin",
-		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/scss"
+		"/Users/WSM/Desktop/Web Dev/practice_projects",
+		"/Users/WSM/Desktop/Web Dev/practice_projects/bootstrapin"
 	],
 	"file_history":
 	[
-		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/index.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/scss/_mixins.scss",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/contact.html",
 		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/about-me.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/index.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/scss/style.scss",
 		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/music.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/programming.html",
 		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/styles/style.css",
 		"/Users/WSM/Desktop/Web Dev/Mozilla Javascript Practice/numbergame.html",
 		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/styles/test.css",
@@ -151,7 +147,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -165,6 +161,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"misc",
 			"3s",
 			"6s",
 			"m",
@@ -188,65 +185,29 @@
 	"groups":
 	[
 		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "scss/style.scss",
+					"file": "/Users/WSM/Desktop/Web Dev/practice_projects/bootstrapin/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7253,
+						"buffer_size": 1243,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								113,
-								113
+								505,
+								505
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scss/_mixins.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								196,
-								196
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -255,6 +216,11 @@
 					"stack_index": 0,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
