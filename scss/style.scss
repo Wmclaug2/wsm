@@ -168,6 +168,7 @@ header{
 			padding:30px 30px 10px 30px;
 			margin:0 auto;
 			@include mobile{
+				padding:30px 10px;
 				width:100%;
 
 			}
@@ -510,10 +511,7 @@ footer{
 	text-align: center;
 	width:90%;
 
-	#foot-nav{
-		// @include mobile{
-		// 		width:80%;
-		// 	}		
+	#foot-nav{		
 		li{
 			border-bottom: .05em solid white;
 			border-radius: .5em;
