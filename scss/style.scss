@@ -212,7 +212,7 @@ article{
 	position: relative;
 }
 	#main-pic{
-		margin: 30px auto;
+		margin: 20px auto;
 		width:100%;
 		#opaqbox {
 			background:rgba(0,0,0,.5);
@@ -235,7 +235,7 @@ article{
 		}
 		@include mobile{
 			padding:0;
-			margin:15px auto;
+			margin:5px auto;
 			width:100%;
 				
 		}
