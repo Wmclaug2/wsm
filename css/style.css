@@ -221,7 +221,7 @@ article {
 @media only screen and (min-width: 0px) and (max-width: 825px) {
   #main-pic {
     padding: 5px;
-    margin: 5px auto;
+    margin: 5px auto 20px auto;
     width: 95%;
   }
 }
