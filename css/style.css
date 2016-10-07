@@ -138,7 +138,7 @@ header nav ul {
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
   header nav ul {
-    padding: 30px 10px;
+    padding: 30px 10px 0px 30px;
     width: 100%;
   }
 }
@@ -204,6 +204,7 @@ article {
 @media only screen and (min-width: 0px) and (max-width: 825px) {
   #main-pic {
     padding: 10px;
+    margin: 15px auto;
     width: 80%;
   }
 }
@@ -407,7 +408,7 @@ article.port img {
   border-radius: 5px;
   display: block;
   float: none;
-  margin: 20px auto;
+  margin: 20px auto 30px auto;
   transition: .5s ease-in-out;
   width: 80%;
 }
