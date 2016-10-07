@@ -243,6 +243,7 @@ h3 {
 @media only screen and (min-width: 0px) and (max-width: 825px) {
   #projpictures p {
     display: block;
+    margin: 0 auto;
     text-align: center;
   }
 }

@@ -280,6 +280,7 @@ article{
 			text-align:right;
 			@include mobile{
 				display:block;
+				margin:0 auto;
 				text-align:center;
 			}
 		}
