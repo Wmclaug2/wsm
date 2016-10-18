@@ -1,7 +1,0 @@
-[0719/123236:ERROR:file_io.cc(30)] read: expected 4, observed 0
-[0720/153158:ERROR:file_io.cc(30)] read: expected 4, observed 0
-[0721/150102:ERROR:file_io.cc(30)] read: expected 4, observed 0
-[0721/153031:ERROR:file_io.cc(30)] read: expected 4, observed 0
-[0722/105107:ERROR:file_io.cc(30)] read: expected 4, observed 0
-[0725/174446:ERROR:file_io.cc(30)] read: expected 4, observed 0
-[0802/154145:ERROR:file_io.cc(30)] read: expected 4, observed 0
