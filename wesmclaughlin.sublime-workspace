@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"initiate",
+				"initiative-item"
+			],
+			[
+				"div",
+				"divider"
+			],
+			[
+				"contact",
+				"contact-header"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -71,14 +83,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/WSM/Desktop/Web Dev/practice_projects/bootstrapin/index.html",
-			"settings":
-			{
-				"buffer_size": 1243,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -117,18 +121,37 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/WSM/Desktop/Web Dev/practice_projects",
-		"/Users/WSM/Desktop/Web Dev/practice_projects/bootstrapin"
+		"/Users/WSM/Desktop/Web Dev",
+		"/Users/WSM/Desktop/Web Dev/personal_projects",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/img",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/scss"
 	],
 	"file_history":
 	[
-		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/scss/_mixins.scss",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/scss/main.scss",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/afterschool-programs.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/FAQ.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/index.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/about-us.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/initiatives.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/honor-society.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/teacher-training.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/scss/_mixins.scss",
+		"/Users/WSM/Desktop/Web Dev/tools/Sass/mixins/_mixins.scss",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/news.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/non-profits/codeva/pages/teachers-lounge.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/scss/style.scss",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/index.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/programming.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/music.html",
 		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/contact.html",
 		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/about-me.html",
-		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/index.html",
-		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/scss/style.scss",
-		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/music.html",
-		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/pages/programming.html",
+		"/Users/WSM/Desktop/Web Dev/work_projects/Newsletter/September Newsletter copy/css/main.css",
+		"/Users/WSM/Desktop/Web Dev/practice_projects/bootstrapin/index.html",
+		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/scss/_mixins.scss",
 		"/Users/WSM/Desktop/Web Dev/personal_projects/wes_mclaughlin/styles/style.css",
 		"/Users/WSM/Desktop/Web Dev/Mozilla Javascript Practice/numbergame.html",
 		"/Users/WSM/Desktop/Web Dev/Wes McLaughlin Remake - Copy/styles/test.css",
@@ -161,6 +184,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"submenu-item",
+			"submenu",
+			"<h3>Upcoming Events</h3>",
+			"3s",
 			"misc",
 			"3s",
 			"6s",
@@ -185,37 +212,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/WSM/Desktop/Web Dev/practice_projects/bootstrapin/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1243,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								505,
-								505
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -230,7 +228,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -300,7 +298,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -308,7 +306,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 211.0,
+	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
