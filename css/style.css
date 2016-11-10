@@ -191,131 +191,98 @@ header nav .lastlink {
 article {
   position: relative;
 }
-
-#main-pic {
+article #main-pic {
+  height: auto;
   margin: 20px auto;
   width: 90%;
 }
-#main-pic #opaqbox {
-  background: rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 30%;
-}
-@media only screen and (min-width: 0px) and (max-width: 825px) {
-  #main-pic #opaqbox {
-    opacity: 0;
-  }
-}
-#main-pic .image {
+article #main-pic img {
   border-radius: 5px;
   display: inline-block;
   width: 100%;
   margin: 10px auto;
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
-  #main-pic {
+  article #main-pic {
     padding: 5px;
     margin: 5px auto 20px auto;
     width: 95%;
   }
 }
-
-h3 {
+article h3 {
+  display: block;
   float: left;
   font: bold 3.125em 'amatic_scregular',sans-serif;
   margin-bottom: 10px;
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
-  h3 {
+  article h3 {
     display: block;
     float: none;
     text-align: center;
     margin: 0 auto;
   }
 }
-
-.img-wrapper {
+article .img-wrapper {
   display: table;
   height: 200px;
   width: 100%;
 }
-
-#projpictures {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 0px;
-  position: relative;
-  width: 100%;
+article .current-projects {
+  align-content: space-around;
+  display: flex;
+  margin: 20px auto;
+  width: 90%;
 }
-@media only screen and (min-width: 0px) and (max-width: 825px) {
-  #projpictures {
-    display: block;
-  }
-}
-#projpictures h4 {
-  display: inline-block;
-  font: 1.875em 'amatic_scregular',sans-serif;
-}
-@media only screen and (min-width: 0px) and (max-width: 825px) {
-  #projpictures h4 {
-    margin: 10px;
-  }
-}
-#projpictures li {
-  box-sizing: border-box;
-  display: inline-block;
-  float: left;
-  padding: 25px;
+article .current-projects .project {
+  flex-shrink: 0;
+  margin: 10px;
   width: 25%;
 }
+article .current-projects .project .project-header {
+  font: 35px "amatic_scregular";
+  margin: 15px auto;
+}
 @media only screen and (min-width: 0px) and (max-width: 825px) {
-  #projpictures li {
-    display: block;
-    float: none;
-    width: 80%;
+  article .current-projects .project .project-header {
     text-align: center;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 825px) {
-  #projpictures .projli {
-    margin: 0 auto;
-    padding: 10px 10px 20px 10px;
-  }
+article .current-projects .project img {
+  border-radius: 5px;
+  flex-shrink: 0;
+  transition: .3s;
+  width: 100%;
+}
+article .current-projects .project img:hover {
+  transform: scale(1.05);
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
-  #projpictures .img-wrapper img {
-    margin: 0 auto;
-    float: none;
+  article .current-projects .project img {
+    border-radius: 10px;
   }
 }
-#projpictures p {
-  display: inline-block;
-  font: italic 1.5625em "amatic_scregular", sans-serif;
-  height: auto;
+article .current-projects .project .project-descriptor {
+  font: 20px "amatic_scregular";
+  margin: 0 auto;
+  padding: 10px;
   text-align: right;
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
-  #projpictures p {
-    display: block;
-    margin: 0 auto;
-    padding-top: 10px;
+  article .current-projects .project .project-descriptor {
     text-align: center;
   }
 }
-#projpictures img {
-  display: table-cell;
-  float: left;
-  height: 100%;
-  vertical-align: middle;
-  width: auto;
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  article .current-projects .project {
+    width: 70%;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
-  #projpictures img {
-    display: block;
+  article .current-projects {
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 

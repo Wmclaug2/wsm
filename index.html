@@ -5,7 +5,7 @@
 	<link rel="shortcut icon" href="images/favicon.ico"/>
 	<meta charset='UTF-8'>
 	<link rel='stylesheet' type='text/css' href='styles/fonts/stylesheet.css'>
-	<link href='css/style.css' rel='stylesheet' type='text/css'>
+	<link href='dist/style.css' rel='stylesheet' type='text/css'>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<!-- Google Analytics -->
 	<script>
@@ -36,44 +36,33 @@
 	</header>
 	<article class='fadeIn three'>
 		<div id='main-pic'>
-		<div id='opaqbox'></div>
-			<img class = 'image' src = 'images/main-me3.jpg' alt = 'Wes McLaughlin at Flagstaff in Boulder, CO.' >
+			<img src = 'images/main-me3.jpg' alt = 'Wes McLaughlin at Flagstaff in Boulder, CO.' >
 			
-
 		</div>
 
 	<h3>Current Projects</h3>
-		<ul id = 'projpictures'> <!--what to use here to properly format?-->
-			<li class = 'projli'>
-				<h4>Angular.JS</h4>
-				<div class='img-wrapper'>
-					<img src='./images/angular.png'>
-				</div>
-				<p>Learning Angular.JS framework for use in developing SPA's.</p>	
-			</li>
-			<li class='projli'>
-				<h4>Sass</h4>
-				<div class='img-wrapper'>
-					<img src='./images/sass.svg'>
-				</div>
-				<p>Learning Sass to better organize my CSS.</p>
-			</li>
-			<li class='projli'>	
-				<h4>Sound Design</h4>
-				<div class='img-wrapper'>
-					<img src='./images/maschine.png'>
-				</div>
-				<p>Sound design using Native Instruments Maschine and Ableton Live.</p>
-			</li>
-			<li class='projli'>	
-				<h4>Text analytics/Git</h4>
-				<div class='img-wrapper'>
-					<img src='./images/git.png'>
-				</div>
-				<p>Developing and maintaining textanalytics platform for Capital One, LLC. and versioning with Github.</p>
-				
-			</li>
-			</ul>
+	<div class = 'current-projects'>
+		<div class='project'>
+			<h4 class='project-header'>Ruby</h4>
+			<img src='images/ruby.png'>
+			<p class='project-descriptor'>Foray into the backend.</p>
+		</div>
+			<div class='project'>
+			<h4 class='project-header'>JavaScript</h4>
+			<img src='images/js_logo.png'>
+			<p class='project-descriptor'>Focusing on Vanilla JS to improve understanding of JS concepts and reduce the need for external libraries and frameworks.</p>
+		</div>
+			<div class='project'>
+			<h4 class='project-header'>Code for Good</h4>
+			<img src='images/Code_org.jpg'>
+			<p class='project-descriptor'>Building/reworking local non-profit websites to gain experience building websites for a meaningful cause.</p>
+		</div>
+			<div class='project'>
+			<h4 class='project-header'>Sass/Gulp</h4>
+			<img src='images/sass.jpg'>
+			<p class='project-descriptor'>Using pre/post-CSS processors to improve workflow, incorporating build tools</p>
+		</div>
+	</div>
 	</article>
 
 	<footer>
