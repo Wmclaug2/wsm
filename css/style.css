@@ -273,6 +273,9 @@ article .current-projects .project .project-descriptor {
     text-align: center;
   }
 }
+article .current-projects .project .project-descriptor a {
+  color: #CD5555;
+}
 @media only screen and (min-width: 0px) and (max-width: 825px) {
   article .current-projects .project {
     width: 70%;
