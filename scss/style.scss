@@ -219,38 +219,25 @@ header{
 
 article{
 	position: relative;
-}
 	#main-pic{
+		height:auto;
 		margin: 20px auto;
 		width:90%;
-		#opaqbox {
-			background:rgba(0,0,0,.5);
-			display: inline-block;
-			height:100%;
-			position: absolute;
-			right:0;
-			top:0;
-			width: 30%;
-			@include mobile{
-				opacity:0;
-			}
-		}
-		.image{
+		img{
 			border-radius:5px;
 			display:inline-block;
 			width: 100%;
 			margin:10px auto;
-
 		}
 		@include mobile{
 			padding:5px;
 			margin:5px auto 20px auto;
 			width:95%;
-				
 		}
 	}	
 	
 	h3{
+		display:block;
 		float:left;
 		font: bold 3.125em 'amatic_scregular',sans-serif;
 		margin-bottom:10px;
@@ -267,73 +254,58 @@ article{
 		height:200px;
 		width: 100%;
 	}
-	
-	#projpictures{
-		display:inline-block;
-		margin-top:10px;
-		padding: 0px;
-		position: relative;
-		width:100%;
-		@include mobile{
-			display:block;
-		}
-		h4{
-			display:inline-block;
-			font:1.875em 'amatic_scregular',sans-serif;
-			@include mobile{
-				margin:10px;
-			}
-		}
-		li{
-			box-sizing:border-box;
-			display: inline-block;
-			float:left;
-			padding:25px;
+	//Current Projects
+	.current-projects{
+		align-content:space-around;
+		display:flex;
+		margin:20px auto;
+		width:90%;
+		.project{
+			flex-shrink:0;
+			margin:10px;
 			width:25%;
-			@include mobile{
-				display:block;
-				float:none;
-				width:80%;
-				text-align:center;
-			}
-		}
-		.projli{
-			@include mobile{
-				margin: 0 auto;
-				padding:10px 10px 20px 10px;
-			}
-		}
-		.img-wrapper{
-				img{
-					@include mobile{
-						margin: 0 auto;
-						float:none;
-					}
+			.project-header{
+				font:35px"amatic_scregular";
+				margin:15px auto;
+				@include mobile{
+					text-align:center;
 				}
 			}
-		p{	
-			display:inline-block;
-			font: italic 1.5625em'amatic_scregular', sans-serif;
-			height:auto;
-			text-align:right;
-			@include mobile{
-				display:block;
+			img{
+				border-radius:5px;
+				flex-shrink:0;
+				transition:.3s;
+				width:100%;
+				&:hover{
+					transform:scale(1.05);
+				}
+				@include mobile{
+					border-radius:10px;
+				}
+			}
+			.project-descriptor{
+				font: 20px "amatic_scregular";
 				margin:0 auto;
-				padding-top:10px;
-				text-align:center;
+				padding:10px;
+				text-align:right;
+				@include mobile{
+					text-align:center;
+				}
+				a{
+					color:#CD5555;
+				}
+			}
+			@include mobile{
+				width:70%;
 			}
 		}
-		img{
-			display: table-cell;
-			float:left;
-			height:100%;
-			vertical-align: middle;
-			width:auto;
-			@include mobile{
-			display:block;
-			}
+		@include mobile{
+			align-content:center;
+			justify-content:center;
+			flex-wrap:wrap;
 		}
 	}
+}
 
 
 // ***************************
