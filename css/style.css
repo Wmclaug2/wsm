@@ -299,6 +299,7 @@ article .current-projects .project .project-descriptor a {
   }
 }
 .aboutme img {
+  border: 7px solid #333;
   border-radius: 50%;
   display: inline-block;
   float: right;
