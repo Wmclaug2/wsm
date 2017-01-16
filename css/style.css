@@ -90,6 +90,11 @@ a {
   text-decoration: none;
 }
 
+img:hover {
+  height: 100%;
+  width: 100%;
+}
+
 header {
   margin-bottom: 15px;
   position: relative;
