@@ -77,7 +77,6 @@
 html, body {
   background: black;
   color: white;
-  font-size: 16px;
 }
 
 h3 {
@@ -250,6 +249,7 @@ article .current-projects .project .project-header {
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
   article .current-projects .project .project-header {
+    font-size: 40px;
     text-align: center;
   }
 }
@@ -275,6 +275,7 @@ article .current-projects .project .project-descriptor {
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
   article .current-projects .project .project-descriptor {
+    font-size: 24px;
     text-align: center;
   }
 }
@@ -488,9 +489,12 @@ footer #foot-nav li:hover {
     border-right: none;
   }
 }
+footer .social-copy-container {
+  display: flex;
+  justify-content: space-between;
+}
 footer #social-icons {
-  display: block;
-  float: left;
+  display: flex;
   margin-top: 30px;
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
@@ -500,18 +504,18 @@ footer #social-icons {
 }
 footer #social-icons li {
   display: inline;
+  font-size: 30px;
   padding-right: 15px;
   text-decoration: none;
 }
-footer #social-icons img {
+footer #social-icons i {
+  font-size: 30px;
   transition: .3s ease-in-out;
-  width: 30px;
 }
-footer #social-icons img:hover {
+footer #social-icons i:hover {
   transform: translate(0, -5px) scale(1.1);
 }
 footer #copyright {
-  float: right;
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 40px;
 }

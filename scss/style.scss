@@ -1,4 +1,4 @@
-// ***************************
+//***************************
 
 //** Imports
 
@@ -99,7 +99,7 @@
 html, body{
 	background:black;
 	color:white;
-	font-size: 16px;
+	
 }
 
 h3{
@@ -273,6 +273,7 @@ article{
 				font:35px"amatic_scregular";
 				margin:15px auto;
 				@include mobile{
+					font-size:40px;
 					text-align:center;
 				}
 			}
@@ -294,6 +295,7 @@ article{
 				padding:10px;
 				text-align:right;
 				@include mobile{
+					font-size:25px;
 					text-align:center;
 				}
 				a{
@@ -498,7 +500,6 @@ footer{
 	position: relative;
 	text-align: center;
 	width:90%;
-
 	#foot-nav{		
 		li{
 			border-bottom: .05em solid white;
@@ -531,32 +532,33 @@ footer{
 			}
 		}
 	}
+	.social-copy-container {
+		display:flex;
+		justify-content:space-between;
+	}
 
 	#social-icons{
-		display: block;
-		float:left;
+		display: flex;
 		margin-top:30px;
 		@include mobile{
 			margin-left:-13%;
 		}
 		li{
 			display: inline;
+			font-size:30px;
 			padding-right: 15px;
 			text-decoration: none;
 		}
-		img{
+		i{
+			font-size:30px;
 			transition:.3s ease-in-out;
-			width:30px;
 			&:hover{
 				transform: translate(0, -5px) scale(1.1);
 			}
 		}
-
 	}
-
 	#copyright{
-		float:right;
-		font-size: 15px;
+		font-size:20px;
 		margin-top:40px;
 	}
 }
