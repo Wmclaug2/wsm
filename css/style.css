@@ -89,9 +89,26 @@ a {
   text-decoration: none;
 }
 
-img:hover {
-  height: 100%;
-  width: 100%;
+#top-corner-social-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+#top-corner-social-icons li {
+  display: inline-block;
+  margin: 7px;
+  text-decoration: none;
+}
+#top-corner-social-icons i {
+  font-size: 30px;
+  transition: .3s ease-in-out;
+}
+#top-corner-social-icons i:hover {
+  transform: translate(0, -5px) scale(1.1);
+}
+@media only screen and (min-width: 0px) and (max-width: 825px) {
+  #top-corner-social-icons {
+    display: none;
+  }
 }
 
 header {
@@ -103,7 +120,7 @@ header h1 {
   color: white;
   font-size: 4.6875em;
   font: bold 4.6875em 'amatic_scregular',sans-serif;
-  margin: 100px auto 10px auto;
+  margin: 10px auto 10px auto;
   padding: 10px;
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
@@ -275,7 +292,7 @@ article .current-projects .project .project-descriptor {
 }
 @media only screen and (min-width: 0px) and (max-width: 825px) {
   article .current-projects .project .project-descriptor {
-    font-size: 24px;
+    font-size: 25px;
     text-align: center;
   }
 }
@@ -489,33 +506,31 @@ footer #foot-nav li:hover {
     border-right: none;
   }
 }
-footer .social-copy-container {
-  display: flex;
-  justify-content: space-between;
-}
 footer #social-icons {
   display: flex;
-  margin-top: 30px;
+  justify-content: center;
+  margin: 50px auto 10px auto;
+  max-width: 100%;
 }
-@media only screen and (min-width: 0px) and (max-width: 825px) {
-  footer #social-icons {
-    margin-left: -13%;
-  }
+footer #social-icons ul {
+  display: flex;
+  justify-content: center;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0;
 }
 footer #social-icons li {
   display: inline;
-  font-size: 30px;
-  padding-right: 15px;
+  margin: 10px;
+  text-align: center;
   text-decoration: none;
 }
 footer #social-icons i {
-  font-size: 30px;
+  font-size: 40px;
   transition: .3s ease-in-out;
 }
 footer #social-icons i:hover {
   transform: translate(0, -5px) scale(1.1);
-}
-footer #copyright {
-  font-size: 20px;
-  margin-top: 40px;
 }

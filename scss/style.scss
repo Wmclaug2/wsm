@@ -95,27 +95,42 @@
 	max-width: 1020px;
 	margin:0 auto;
 }
-
 html, body{
 	background:black;
 	color:white;
-	
 }
-
 h3{
 	margin:0;
 	padding:0;
 }
-
-
 a{
 	color: white;
 	text-decoration: none;
 }
+// ***************************
 
-img:hover{
-	height:100%;
-	width:100%;
+//** Top social icons
+
+// ***************************
+
+#top-corner-social-icons{
+	display:flex;
+	justify-content:flex-end;
+	li{
+		display:inline-block;
+		margin:7px;
+		text-decoration:none;
+	}
+	i{
+		font-size:30px;
+		transition:.3s ease-in-out;
+		&:hover{
+			transform: translate(0, -5px) scale(1.1);
+		}
+	}
+	@include mobile{
+		display:none;
+	}
 }
 
 // ***************************
@@ -132,7 +147,7 @@ header{
 		color:white;
 		font-size: 4.6875em;
 		font: bold 4.6875em 'amatic_scregular',sans-serif;
-		margin: 100px auto 10px auto;
+		margin: 10px auto 10px auto;
 		padding: 10px;
 		@include mobile{
 			margin:30px auto 10px auto;
@@ -329,7 +344,6 @@ article{
 	img{
 		border:7px solid #333;
 		border-radius:50%;
-
 		display:inline-block;
 		float:right;
 		margin-bottom:40px;
@@ -494,7 +508,6 @@ article.port{
 //** Footer
 
 // ***************************
-
 footer{
 	margin: 50px auto 30px auto;
 	position: relative;
@@ -532,33 +545,36 @@ footer{
 			}
 		}
 	}
-	.social-copy-container {
-		display:flex;
-		justify-content:space-between;
-	}
-
 	#social-icons{
-		display: flex;
-		margin-top:30px;
+		display:flex;
+		justify-content:center;
+		margin:50px auto 10px auto;
+		max-width:100%;
 		@include mobile{
-			margin-left:-13%;
+			// margin-left:-13%;
+		}
+		ul{
+			display:flex;
+			justify-content:center;
+			//including to user agent stylesheet in chrome
+			-webkit-margin-before: 0;
+			-webkit-margin-after: 0;
+			-webkit-margin-start: 0px;
+			-webkit-margin-end: 0px;
+			-webkit-padding-start: 0;
 		}
 		li{
 			display: inline;
-			font-size:30px;
-			padding-right: 15px;
+			margin:10px;
+			text-align:center;
 			text-decoration: none;
 		}
 		i{
-			font-size:30px;
+			font-size:40px;
 			transition:.3s ease-in-out;
 			&:hover{
 				transform: translate(0, -5px) scale(1.1);
 			}
 		}
-	}
-	#copyright{
-		font-size:20px;
-		margin-top:40px;
 	}
 }
