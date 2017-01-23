@@ -1,2 +1,2 @@
 # wsm
-Personal website hosted with github pages
+Personal website hosted with GH-pages
